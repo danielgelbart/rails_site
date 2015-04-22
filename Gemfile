@@ -43,6 +43,8 @@ gem 'spring',        group: :development
 # recomended by heruko
 gem 'rails_12factor', group: :production
 
-#gem "paperclip", "~> 4.2"
-
 gem "nokogiri"
+
+group :blog do
+  gem 'sinatra', '~> 1.4.2'
+end
