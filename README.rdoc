@@ -1,0 +1,3 @@
+== Contango
+
+A rails app to retrieve filings from edgar
